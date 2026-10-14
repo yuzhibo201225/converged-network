@@ -1,0 +1,50 @@
+{
+  "config": {
+    "loads": [
+      0.2,
+      0.4,
+      0.6,
+      0.7,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "profiles": [
+      "constant",
+      "fine",
+      "coarse"
+    ],
+    "queues": [
+      "fifo",
+      "priority"
+    ],
+    "warm": 400,
+    "measured": 10000,
+    "guard": 400,
+    "horizon": 11000,
+    "phase_seed": 20261020,
+    "capacity": 16,
+    "pmr": 3,
+    "bulk_cycle": 8,
+    "T": 0.02,
+    "nominal_bps": 6000000,
+    "deadline_T": 1
+  },
+  "model_sha256": {
+    "converged_sim/coarse_observation.py": "cabb84ed98ed4e5631af75e5cef8e3e0ca72a2db08e832db149ab8b096dd561d",
+    "converged_sim/timescale_model.py": "ccd29a0a5985ef27dbe0b846e1e7c869932ce022a951e1b52e764fbbb5300530",
+    "converged_sim/traffic_contract.py": "bd51d638ed0be51f58770ed700a4e3cea2d91c31e43bc253f25394e091bd36c3",
+    "converged_sim/scenario_predictor.py": "7be78ba66b34503ef4a0bd21d83c23bf750db318c976b6f8c3d8f9821f0c584a",
+    "q2_upgrade/COARSE_OBSERVATION_PROTOCOL_V18.md": "dd120827694b39ddd228f129a3b29484cd46c2d7eb18153a66b49eb4214b1565"
+  },
+  "status": "FROZEN_BEFORE_FIRST_OUTCOME",
+  "scope": "synthetic exploratory"
+}

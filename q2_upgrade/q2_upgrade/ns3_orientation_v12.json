@@ -1,0 +1,17 @@
+{
+  "purpose":"exploratory orientation-only paired intervention; merged low/high dwells intentionally change",
+  "modes":["lowfirst","highfirst","coinflip"],
+  "loads":[0.95],
+  "arms":[{"R":3,"tauB":8}],
+  "tauS":8,
+  "seed":20261015,
+  "trace_seed_base":110000,
+  "runs":[1,2,3,4,5,6,7,8,9,10],
+  "warm":256,
+  "measured":10000,
+  "settings":[
+    {"shape":"feedback","queue":"fifo","bias":0,"lag":0.5,"capacity":16},
+    {"shape":"feedback","queue":"fifo","bias":0.06,"lag":0.5,"capacity":16},
+    {"shape":"none","queue":"priority","bias":0,"lag":0,"capacity":16}
+  ]
+}

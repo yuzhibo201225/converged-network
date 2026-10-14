@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN_BEFORE_CONTROL_PLANNING",
+  "model_sha256": {
+    "converged_sim/cellreplay_release_model.py": "da958118c5545572f961707e11e03366630657e509c4776b927d9ffdb795a71e",
+    "converged_sim/cellreplay_release_probe.py": "eb73aaabda04be9fa059ac0d25119d7fbe12f50c438c7193065e99227cb4792a",
+    "converged_sim/cellreplay_development_screen.py": "8a102228bcece6ffcb9fb3c38355775a665fdfc9410002935920933951a9fd3d",
+    "q2_upgrade/RELEASE_FLOOR_PROTOCOL_V22.md": "eb7231a8768aa5f31cccafd2e56f91d72449717ccbbd1fced7e6f9e7722d641b"
+  },
+  "development_audit_sha256": "82cd0f7175d91c1bbcbe26f7408c71e6d307b1c001c8f7776f1665dd503a31d3",
+  "split_sha256": "041490a80060ea4ce445de65580fde31330d2c3483421cb5aeed0053af922b31",
+  "settings": {
+    "period_ms": 20,
+    "warm": 400,
+    "cohort": 10000,
+    "content_sizes": [
+      150,
+      182
+    ],
+    "timers_ms": [
+      0,
+      5
+    ]
+  },
+  "scope": "translated release stage only; no heavy PDO/native/received data"
+}

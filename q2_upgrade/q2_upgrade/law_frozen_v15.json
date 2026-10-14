@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN",
+  "forecast_manifest_sha256": "f98be9a136c4295a9d1e33c0bc3ec74323aac0c5649b649b809d818f1760c2fb",
+  "forecast_audit_sha256": "3c2e8d2b44882fcd378e8ffd998631ff4e77452990030df08c19c256756b372b",
+  "decisions_sha256": "438c4b95101d9ba20706a35320907118c46f7b1b27e99afad965387cccc37724",
+  "model_sha256": {
+    "converged_sim/scenario_predictor.py": "7be78ba66b34503ef4a0bd21d83c23bf750db318c976b6f8c3d8f9821f0c584a",
+    "ns3_validation/renewal_gate.py": "98aa4f209fb341e09d5c0c4d82841b3bf9a1cb85edfa7b5bab3c11e28ef47b1b",
+    "converged_sim/timescale_model.py": "ccd29a0a5985ef27dbe0b846e1e7c869932ce022a951e1b52e764fbbb5300530",
+    "converged_sim/law_admission.py": "f1a20b0b10b33836ed658f2ebe39a5031a617358e98935927d012062f1050c8c",
+    "converged_sim/traffic_contract.py": "bd51d638ed0be51f58770ed700a4e3cea2d91c31e43bc253f25394e091bd36c3",
+    "converged_sim/reliability_boundary.py": "a7822d548e1d7a0a0b9c9f3731ccf420c06aa08dba5181a47f40e849a7cad42f",
+    "ns3_validation/orientation_cli.py": "c29327e484b2d778fa9d335beb6568cf5b8d6fb334de5610bec4b54e115b4432",
+    "ns3_validation/order_cli.py": "ba4787c254fb81b8fa795a3c856d436d5f219c447d5fdaaf206c162d3114308a"
+  },
+  "allowed_native_config_sha256": [
+    "1c372004c5a9656e2a0a5f7b4e89124622aa973286c5ae713611cb61c188287b",
+    "262f6cb1a8415c454b21c3083bb4970765720f348bc992e3f8ffe58984fef63e"
+  ],
+  "native_executable_sha256": "e24e5f0b71a14d8786b6df2e81f82c405cb0639ae76038a4fc4c4c2d838b11c7",
+  "validation_family_size": 8,
+  "alpha": 0.05,
+  "q": 0.9,
+  "information": "before native validation; known synthetic law, no actual future realization"
+}

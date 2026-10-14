@@ -1,0 +1,11 @@
+{
+  "purpose": "post-confirmation selected-grid exploratory localization; not a replacement for 70-seed primary reliability confirmation",
+  "measured": 10000,
+  "warmup": 256,
+  "loads": [0.35, 0.36, 0.37, 0.38, 0.39, 0.40, 0.80, 0.81, 0.82, 0.83, 0.84, 0.85, 0.86, 0.87, 0.88, 0.89, 0.90],
+  "arms": [{"pmr": 1, "tau_b": 2}, {"pmr": 3, "tau_b": 0.5}, {"pmr": 3, "tau_b": 8}],
+  "tau_s": 2,
+  "seeds": [60000, 60001, 60002, 60003, 60004, 60005, 60006, 60007, 60008, 60009],
+  "q": 0.9,
+  "alpha": 0.05
+}

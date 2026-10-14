@@ -1,0 +1,46 @@
+{
+  "status": "PASS_NATIVE_CORE_COUNTEREXAMPLE",
+  "rows": 18,
+  "source_queue_compiled_unchanged": true,
+  "events_sha256": "3edc9648a4bd733f89a2a067dd5fd290127c02b4ffb8b3093eb6344203bbd9a5",
+  "executable_sha256": "1b2f13a8007e1103bf7878f32a1d2ce855b47ed64007c67a0d5c31a36ca29171",
+  "freeze_sha256": "3bd0938d4544a0891f131d5d336b0659125620c3943b168bcb173598563128e8",
+  "native_full_cellreplay": false,
+  "radio_measurement": false,
+  "new_congestion_method": false,
+  "drained_outcomes": {
+    "original_drop": {
+      "variant": "original_drop",
+      "event": "drained",
+      "resident": "0",
+      "counter": "1",
+      "attempts": "2",
+      "accepted": "1",
+      "dropped": "1",
+      "outputs": "1",
+      "light_bypass": "0"
+    },
+    "original_no_drop": {
+      "variant": "original_no_drop",
+      "event": "drained",
+      "resident": "0",
+      "counter": "0",
+      "attempts": "2",
+      "accepted": "2",
+      "dropped": "0",
+      "outputs": "2",
+      "light_bypass": "1"
+    },
+    "corrected_drop": {
+      "variant": "corrected_drop",
+      "event": "drained",
+      "resident": "0",
+      "counter": "0",
+      "attempts": "2",
+      "accepted": "1",
+      "dropped": "1",
+      "outputs": "1",
+      "light_bypass": "1"
+    }
+  }
+}

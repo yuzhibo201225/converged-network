@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "posthoc ceiling for this finite observed witness set only",
+  "information_classes": 80,
+  "classes_with_failing_witness": 40,
+  "max_qualifiable_observed_outcomes_with_no_failing_world": 120,
+  "safe_observed_outcomes_sharing_input_with_failure": 20,
+  "budget_rule_matches_every_finite_witness_ceiling": true,
+  "global_uncertainty_set_optimality_proven": false,
+  "new_data_draws": 0,
+  "parent_audit_sha256": "b5b46f855253d361c5a1096c12ec0c1df0c281e55eb181ed0f98feb4be057a28",
+  "classes_sha256": "d006eeb0f57512c46b54a1bb882d64c23592c51ea395a7787c5e2f5ed025838b"
+}

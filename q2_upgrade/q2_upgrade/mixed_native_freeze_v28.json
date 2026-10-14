@@ -1,0 +1,12 @@
+{
+  "model_sha256": {
+    "converged_sim/native_mixed_queue_check.py": "9f4eeeff4c0938a34da54d6264838612f9da210cfbe87d8a94a109f1293c1a51",
+    "ns3_validation/cellreplay_mixed_queue_fixture.cc": "ffcef36110130c287d273416bd9f575f978bb28d9b7a9d95ce5fa7eeb7b18726",
+    "q2_upgrade/MIXED_NATIVE_QUEUE_PROTOCOL_V28.md": "9c64ac69133c3a93a30c1ec27a91bdd6f5088f9700530b4ae00e66106e3c4229"
+  },
+  "source_sha256": "0634d8ad1da5102d749cd8648752a7c02919edbcad05a69d798302f08e3f6c1e",
+  "queue_manifest_sha256": "01b9e34551ca917cfed2a74822bb680c00c2312e9b002d10635ba83b60b26098",
+  "input_manifest_sha256": "7e3d73f447db78fe5bde349aa0effb34aaa07d6b5e4c94390f8578733d0ebdfa",
+  "compiler_sha256": "fe03455c28ab0c69f1adb0ccde202124091f01d02b0c0ede8578f606063cc894",
+  "scope": "native FIFO semantic differential; no OS or priority equivalence"
+}

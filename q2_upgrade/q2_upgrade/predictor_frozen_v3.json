@@ -1,0 +1,55 @@
+{
+  "purpose": "exploratory new-family/new-seed evaluation, not Lcrit certification",
+  "source_sha256": "81c177bcba31967882ea9a2e4f24a3a247df7093d3c972e9700c9de58d2d876b",
+  "predictor_code_sha256": "d53975512c78ad98288cbfef814ac9f81fa20eec3f8d070a0048df91adf5f1f7",
+  "training_seeds": [
+    20000,
+    20001,
+    20002,
+    20003,
+    20004
+  ],
+  "baseline": {
+    "extended": false,
+    "means": [
+      0.6,
+      1.5
+    ],
+    "scales": [
+      0.16329931618554522,
+      0.8660254037844386
+    ],
+    "coefficients": [
+      -0.6952392313026228,
+      0.5240511963967692,
+      0.5639677856079656
+    ],
+    "ridge": 0.1,
+    "training_cells": 36
+  },
+  "timescale": {
+    "extended": true,
+    "means": [
+      0.6,
+      1.5,
+      0.5256590562726186,
+      0.6111803344143366
+    ],
+    "scales": [
+      0.16329931618554522,
+      0.8660254037844386,
+      0.5442995368990512,
+      0.4536661458084474
+    ],
+    "coefficients": [
+      -0.6952392313026227,
+      0.37566969582729237,
+      0.10359582406888697,
+      0.8279574300045427,
+      0.3334581586389628
+    ],
+    "ridge": 0.1,
+    "training_cells": 36
+  },
+  "frozen_before_v3_endpoint_inspection": true
+}

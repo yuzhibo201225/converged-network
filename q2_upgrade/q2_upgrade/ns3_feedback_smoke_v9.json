@@ -1,0 +1,13 @@
+{
+  "purpose": "API and audit smoke test, no inferential claims",
+  "loads": [0.95], "arms": [{"R": 3, "tauB": 8}], "tauS": 8,
+  "seed": 20261012, "runs": [1], "measured": 320, "warm": 32,
+  "settings": [
+    {"shape": "none", "queue": "fifo", "bias": 0, "lag": 0, "capacity": 16},
+    {"shape": "none", "queue": "priority", "bias": 0, "lag": 0, "capacity": 16},
+    {"shape": "none", "queue": "fq_codel", "bias": 0, "lag": 0, "capacity": 16},
+    {"shape": "fixed", "queue": "fifo", "bias": 0, "lag": 0, "capacity": 16},
+    {"shape": "feedback", "queue": "fifo", "bias": 0, "lag": 0.5, "capacity": 16},
+    {"shape": "feedback", "queue": "fifo", "bias": 0.1, "lag": 0.5, "capacity": 16}
+  ]
+}

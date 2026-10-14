@@ -1,0 +1,23 @@
+{
+  "reserved_member_reads_started": [
+    "verizon/stationary-good/up-heavy-pdo",
+    "verizon/stationary-good/up-delay-light-pdo",
+    "verizon/stationary-good/latency-offset-up"
+  ],
+  "complete_member_receipts": {
+    "verizon/stationary-good/up-heavy-pdo": {
+      "sha256": "e58af90b38751585311c652bfec1d1feef55495f7299bb16710ebed486172ee2",
+      "bytes": 46818728
+    },
+    "verizon/stationary-good/up-delay-light-pdo": {
+      "sha256": "1935962aab9945b993d9726cc72a4516f80b9d56b04927694e8fb35e29ab8bb8",
+      "bytes": 693739,
+      "complete_member_read": true
+    },
+    "verizon/stationary-good/latency-offset-up": {
+      "sha256": "f0a94687411b8c17e48ed6fe802ff8cfabf4dfd466d0fbbbb37dee1fc6fe2284",
+      "bytes": 130,
+      "complete_member_read": true
+    }
+  }
+}
