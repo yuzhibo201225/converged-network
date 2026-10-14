@@ -1,7 +1,0 @@
-{
-  "status": "PASS_SAVED_PREFIX_RECONSTRUCTION",
-  "members": 4,
-  "reconstructed_opportunities": 6667491,
-  "source_audit_sha256": "faee4b91190271edb72d750e3b29e0b2bc35f38674a6b721946752b4050951ea",
-  "scope": "saved-prefix consistency; not independent radio/expert verification"
-}

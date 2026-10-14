@@ -1,9 +1,0 @@
-{
-  "input_manifest_sha256": "7e3d73f447db78fe5bde349aa0effb34aaa07d6b5e4c94390f8578733d0ebdfa",
-  "source_sha256": "0634d8ad1da5102d749cd8648752a7c02919edbcad05a69d798302f08e3f6c1e",
-  "model_sha256": {
-    "converged_sim/absorbing_counter_check.py": "768c96ad2508be3095c94158577caafcbf91df5196c025ae09d06e76cf436983",
-    "q2_upgrade/ABSORBING_COUNTER_PROTOCOL_V30.md": "cc63f15af6490f3c68dde655e2ca54428c5947703bd28a81a5a309320bd9e265"
-  },
-  "scope": "implementation invariant; not novelty confirmation"
-}

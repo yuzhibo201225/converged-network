@@ -1,9 +1,0 @@
-{
-  "status": "DEVELOPMENT_SCREEN_COMPLETE_NOT_CONTROL_VALIDATION",
-  "members_screened": 8,
-  "reserved_members_opened": 0,
-  "calibration_members_opened": 0,
-  "heavy_members_opened": 0,
-  "frozen_sha256": "fdf3250da3e197f6b26ba91f83138945505642db63f53f13d9b119f08648c108",
-  "development_sha256": "bc96eaf01d5d65279306e180f9ea8537b13bea6606ad3ab985ac0b3d79711cb9"
-}

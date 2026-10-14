@@ -1,9 +1,0 @@
-{
-  "status": "PASS_INTERMEDIATE_RECORDS_ONLY",
-  "raw_manifest_sha256": "006d46e3535dd774c4b16d70f2a7bee7a7de64e1addfed0b00272749341f7992",
-  "planned_control_records": 720000,
-  "cohorts": 72,
-  "timer0_and5_logical_records_exact": true,
-  "native_equivalence_verified": false,
-  "real_control_delivery_measured": false
-}

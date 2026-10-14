@@ -1,7 +1,0 @@
-{
-  "loads":[0.90,0.95],"tauS_values":[4,12],
-  "R":3,"tauB":8,"lag":0.5,"bias":0.06,"capacity":16,
-  "warm":264,"measured":10008,"draws":70,
-  "forecast_phase_seed":20261018,"forecast_trace_seed_base":200000,
-  "q":0.90,"alpha":0.05
-}
