@@ -1,0 +1,46 @@
+{
+  "config": {
+    "group": "verizon/stationary-good",
+    "direction": "up",
+    "end_ms": 208000,
+    "warm_ms": 8000,
+    "loads": [
+      0.6
+    ],
+    "pmrs": [
+      3
+    ],
+    "cycle_ms": 300,
+    "timer_ms": 0,
+    "capacity_packets": 16,
+    "policies": [
+      "fifo"
+    ],
+    "accounting": [
+      "original",
+      "accepted"
+    ],
+    "deadlines_ms": [
+      10,
+      20,
+      40
+    ]
+  },
+  "selected_reserved_members": [
+    "verizon/stationary-good/up-heavy-pdo",
+    "verizon/stationary-good/up-delay-light-pdo",
+    "verizon/stationary-good/latency-offset-up"
+  ],
+  "split_sha256": "041490a80060ea4ce445de65580fde31330d2c3483421cb5aeed0053af922b31",
+  "archive_sha256": "1c69bfec9bea73814c56304ddd166c9975bbbd642e5d64428a06f6e57f395be3",
+  "prior_pushout_audit_sha256": "f585fc563d153d094e2d1fe90fb978535ab37cd24f7fa485cc17cddcf8b7acc7",
+  "model_sha256": {
+    "converged_sim/heldout_artifact.py": "31ac805f9fa1e86646fd789f7f6c30b91cd6c8fc4820331a2632abef7af4a8a7",
+    "converged_sim/cellreplay_mixed.py": "ae0daa0389a6373a85eb9ddaf238626c91bfd02a17b7a18b900f539fb5c8eac1",
+    "converged_sim/cellreplay_release_model.py": "da958118c5545572f961707e11e03366630657e509c4776b927d9ffdb795a71e",
+    "converged_sim/cellreplay_heavy_intake.py": "446e772c35111162b1483c05248d0fb09b9705166a214f0eb6a407686986b5c4",
+    "q2_upgrade/HELDOUT_ARTIFACT_PROTOCOL_V31.md": "38c65c1fdd6873724b8cc79fbf945d9735408befcae67dd5361091e74b6c14ca"
+  },
+  "status": "FROZEN_BEFORE_FIRST_RESERVED_NUMERIC_PARSE",
+  "scope": "one held-out implementation-artifact case"
+}

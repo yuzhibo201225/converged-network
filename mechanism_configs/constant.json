@@ -1,0 +1,24 @@
+{
+  "simulation": {
+    "control_period": 1.0,
+    "sensor_period": 2.0,
+    "control_packet_work": 0.01,
+    "sensor_packet_work": 0.04,
+    "bulk_packet_work": 0.1,
+    "buffer_work": 10.0,
+    "trace_block_period": 5.0,
+    "trace_low_rate": 1.0,
+    "trace_high_rate": 1.0,
+    "trace_normalize_mean": true,
+    "trace_balance_windows": true,
+    "warmup_control_packets": 1020,
+    "measured_control_packets": 10020,
+    "deadline_periods": 1.0
+  },
+  "sweep": {
+    "loads": [0.60],
+    "pmrs": [1.0, 3.0],
+    "seeds": [10000, 10001, 10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011, 10012, 10013, 10014, 10015, 10016, 10017, 10018, 10019, 10020, 10021, 10022, 10023, 10024, 10025, 10026, 10027, 10028, 10029],
+    "refine_step": 0.1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_SAVED_RAW_AND_NATIVE_RELEASE_RECONSTRUCTION",
+  "runs": 50,
+  "phase_repeats_per_configuration": 5,
+  "configurations": 10,
+  "all_flow_records": 12196690,
+  "measured_control_records": 500000,
+  "native_release_records": 4929935,
+  "source_manifest_sha256": "fbe3674aa7095edd56980d266d032eadbdb4c8d26b5bebadb57805f1f2cf998d",
+  "audit_script_sha256": "74cb8dfc94e5c18202666ab176dbef8ff3f3a31e5a0f710eba27674b62044a2a",
+  "outputs": {
+    "five_phase_summary.csv": "3e4ff85c65e23b2eebc6f4ca22205be0f2d029a9caf9af75ae9aabf1c9a7ce93",
+    "paired_accounting_differences.csv": "4e9857bc08dcf130405f57ed6e01ce82ad10555a67c7a30cf92a3a6b68b00027",
+    "control_ecdf.csv": "b7e8ef0a7c3a98d84855c0798e7a6b5f1c802de5a790f8d4d5cf6ebe5db252ae",
+    "volume_pairing.json": "1117b8887a5a83d47c86b54f3a84fe35a0ad07702ff4bd6c13c41d350a935f85"
+  },
+  "scope": "raw reconstruction and source-native release parity; no independent full-queue/radio validation",
+  "pairing_scope": "mean/mix exact over full208s interval, not asserted over postwarm200s interval",
+  "uncertainty_scope": "five phase ranges, not confidence intervals or independent radio sessions"
+}

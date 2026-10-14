@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "synthetic raw reconstruction, not independent implementation",
+  "runs": 240,
+  "all_flow_records": 19080000,
+  "control_records": 2400000,
+  "arrival_pair_groups": 40,
+  "fifo_shadow_runs": 120,
+  "manifest_sha256": "e006431c91743a14f45f61139df9768d0a67d3f26d0e46823165ae04ca3b6a76",
+  "points_sha256": "c258dd4bf4e003d64d079aa8bfcee4bee08def477769d93c379b9c218b49903a",
+  "boundaries_sha256": "ea460de5c40416b11e56d2d248509be1610e6ea56636bccb10a2b1b5c02020fd"
+}

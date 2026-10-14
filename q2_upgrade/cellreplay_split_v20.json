@@ -1,0 +1,272 @@
+{
+  "status": "SEALED_METADATA_ROLES_NO_NUMERIC_PARSE",
+  "source_manifest_sha256": "3cf8ef14f81f78acb8fa96f4d71290622e1a676f2b7dc159aa3f247c94e60238",
+  "archive_sha256": "1c69bfec9bea73814c56304ddd166c9975bbbd642e5d64428a06f6e57f395be3",
+  "source_commit": "2ca662cb01a222dd7fcc10f9ed79293803b4ef21",
+  "roles": {
+    "tmobile/stationary-good": "development",
+    "tmobile/weak-signal": "development",
+    "tmobile/driving": "calibration",
+    "verizon/stationary-good": "reserved",
+    "verizon/walking": "reserved",
+    "verizon/crowded": "reserved"
+  },
+  "members": [
+    {
+      "group": "tmobile/stationary-good",
+      "role": "development",
+      "member_path": "tmobile/stationary-good/up-delay-light-pdo",
+      "uncompressed_bytes": 666613,
+      "compressed_bytes": 101972
+    },
+    {
+      "group": "tmobile/stationary-good",
+      "role": "development",
+      "member_path": "tmobile/stationary-good/down-delay-light-pdo",
+      "uncompressed_bytes": 3533624,
+      "compressed_bytes": 237862
+    },
+    {
+      "group": "tmobile/stationary-good",
+      "role": "development",
+      "member_path": "tmobile/stationary-good/up-heavy-pdo",
+      "uncompressed_bytes": 37717059,
+      "compressed_bytes": 886222
+    },
+    {
+      "group": "tmobile/stationary-good",
+      "role": "development",
+      "member_path": "tmobile/stationary-good/down-heavy-pdo",
+      "uncompressed_bytes": 167740920,
+      "compressed_bytes": 2371487
+    },
+    {
+      "group": "tmobile/stationary-good",
+      "role": "development",
+      "member_path": "tmobile/stationary-good/latency-offset-down",
+      "uncompressed_bytes": 128,
+      "compressed_bytes": 64
+    },
+    {
+      "group": "tmobile/stationary-good",
+      "role": "development",
+      "member_path": "tmobile/stationary-good/latency-offset-up",
+      "uncompressed_bytes": 124,
+      "compressed_bytes": 66
+    },
+    {
+      "group": "tmobile/driving",
+      "role": "calibration",
+      "member_path": "tmobile/driving/up-delay-light-pdo",
+      "uncompressed_bytes": 566912,
+      "compressed_bytes": 104300
+    },
+    {
+      "group": "tmobile/driving",
+      "role": "calibration",
+      "member_path": "tmobile/driving/down-delay-light-pdo",
+      "uncompressed_bytes": 2059862,
+      "compressed_bytes": 176625
+    },
+    {
+      "group": "tmobile/driving",
+      "role": "calibration",
+      "member_path": "tmobile/driving/up-heavy-pdo",
+      "uncompressed_bytes": 56600810,
+      "compressed_bytes": 1328469
+    },
+    {
+      "group": "tmobile/driving",
+      "role": "calibration",
+      "member_path": "tmobile/driving/down-heavy-pdo",
+      "uncompressed_bytes": 309326109,
+      "compressed_bytes": 3928265
+    },
+    {
+      "group": "tmobile/driving",
+      "role": "calibration",
+      "member_path": "tmobile/driving/latency-offset-down",
+      "uncompressed_bytes": 128,
+      "compressed_bytes": 64
+    },
+    {
+      "group": "tmobile/driving",
+      "role": "calibration",
+      "member_path": "tmobile/driving/latency-offset-up",
+      "uncompressed_bytes": 122,
+      "compressed_bytes": 65
+    },
+    {
+      "group": "tmobile/weak-signal",
+      "role": "development",
+      "member_path": "tmobile/weak-signal/up-delay-light-pdo",
+      "uncompressed_bytes": 278698,
+      "compressed_bytes": 62791
+    },
+    {
+      "group": "tmobile/weak-signal",
+      "role": "development",
+      "member_path": "tmobile/weak-signal/down-delay-light-pdo",
+      "uncompressed_bytes": 1768783,
+      "compressed_bytes": 153375
+    },
+    {
+      "group": "tmobile/weak-signal",
+      "role": "development",
+      "member_path": "tmobile/weak-signal/up-heavy-pdo",
+      "uncompressed_bytes": 5083427,
+      "compressed_bytes": 509795
+    },
+    {
+      "group": "tmobile/weak-signal",
+      "role": "development",
+      "member_path": "tmobile/weak-signal/down-heavy-pdo",
+      "uncompressed_bytes": 40674079,
+      "compressed_bytes": 1185151
+    },
+    {
+      "group": "tmobile/weak-signal",
+      "role": "development",
+      "member_path": "tmobile/weak-signal/latency-offset-down",
+      "uncompressed_bytes": 120,
+      "compressed_bytes": 63
+    },
+    {
+      "group": "tmobile/weak-signal",
+      "role": "development",
+      "member_path": "tmobile/weak-signal/latency-offset-up",
+      "uncompressed_bytes": 128,
+      "compressed_bytes": 62
+    },
+    {
+      "group": "verizon/stationary-good",
+      "role": "reserved",
+      "member_path": "verizon/stationary-good/up-heavy-pdo",
+      "uncompressed_bytes": 46818728,
+      "compressed_bytes": 1739906
+    },
+    {
+      "group": "verizon/stationary-good",
+      "role": "reserved",
+      "member_path": "verizon/stationary-good/down-heavy-pdo",
+      "uncompressed_bytes": 100348185,
+      "compressed_bytes": 1702413
+    },
+    {
+      "group": "verizon/stationary-good",
+      "role": "reserved",
+      "member_path": "verizon/stationary-good/down-delay-light-pdo",
+      "uncompressed_bytes": 4584169,
+      "compressed_bytes": 345045
+    },
+    {
+      "group": "verizon/stationary-good",
+      "role": "reserved",
+      "member_path": "verizon/stationary-good/up-delay-light-pdo",
+      "uncompressed_bytes": 693739,
+      "compressed_bytes": 147733
+    },
+    {
+      "group": "verizon/stationary-good",
+      "role": "reserved",
+      "member_path": "verizon/stationary-good/latency-offset-down",
+      "uncompressed_bytes": 124,
+      "compressed_bytes": 65
+    },
+    {
+      "group": "verizon/stationary-good",
+      "role": "reserved",
+      "member_path": "verizon/stationary-good/latency-offset-up",
+      "uncompressed_bytes": 130,
+      "compressed_bytes": 66
+    },
+    {
+      "group": "verizon/walking",
+      "role": "reserved",
+      "member_path": "verizon/walking/up-delay-light-pdo",
+      "uncompressed_bytes": 401765,
+      "compressed_bytes": 94778
+    },
+    {
+      "group": "verizon/walking",
+      "role": "reserved",
+      "member_path": "verizon/walking/down-delay-light-pdo",
+      "uncompressed_bytes": 1798986,
+      "compressed_bytes": 209640
+    },
+    {
+      "group": "verizon/walking",
+      "role": "reserved",
+      "member_path": "verizon/walking/up-heavy-pdo",
+      "uncompressed_bytes": 49753688,
+      "compressed_bytes": 1635781
+    },
+    {
+      "group": "verizon/walking",
+      "role": "reserved",
+      "member_path": "verizon/walking/down-heavy-pdo",
+      "uncompressed_bytes": 125036912,
+      "compressed_bytes": 2015577
+    },
+    {
+      "group": "verizon/walking",
+      "role": "reserved",
+      "member_path": "verizon/walking/latency-offset-down",
+      "uncompressed_bytes": 124,
+      "compressed_bytes": 64
+    },
+    {
+      "group": "verizon/walking",
+      "role": "reserved",
+      "member_path": "verizon/walking/latency-offset-up",
+      "uncompressed_bytes": 130,
+      "compressed_bytes": 64
+    },
+    {
+      "group": "verizon/crowded",
+      "role": "reserved",
+      "member_path": "verizon/crowded/up-delay-light-pdo",
+      "uncompressed_bytes": 606057,
+      "compressed_bytes": 135443
+    },
+    {
+      "group": "verizon/crowded",
+      "role": "reserved",
+      "member_path": "verizon/crowded/down-delay-light-pdo",
+      "uncompressed_bytes": 2632816,
+      "compressed_bytes": 248273
+    },
+    {
+      "group": "verizon/crowded",
+      "role": "reserved",
+      "member_path": "verizon/crowded/up-heavy-pdo",
+      "uncompressed_bytes": 29917889,
+      "compressed_bytes": 1399863
+    },
+    {
+      "group": "verizon/crowded",
+      "role": "reserved",
+      "member_path": "verizon/crowded/down-heavy-pdo",
+      "uncompressed_bytes": 81165184,
+      "compressed_bytes": 1407623
+    },
+    {
+      "group": "verizon/crowded",
+      "role": "reserved",
+      "member_path": "verizon/crowded/latency-offset-down",
+      "uncompressed_bytes": 121,
+      "compressed_bytes": 61
+    },
+    {
+      "group": "verizon/crowded",
+      "role": "reserved",
+      "member_path": "verizon/crowded/latency-offset-up",
+      "uncompressed_bytes": 128,
+      "compressed_bytes": 68
+    }
+  ],
+  "numeric_trace_values_inspected": false,
+  "external_blinding": false,
+  "code_sha256": "735e9e21fa3d6b3fd2d03f0bea4478059f2b19b3c5e9038e05fac8f558a46c57",
+  "scope": "two-operator six-scenario source; not six independent days or live control experiments"
+}

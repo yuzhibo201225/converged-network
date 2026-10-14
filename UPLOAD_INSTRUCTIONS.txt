@@ -1,0 +1,16 @@
+UPLOAD GUIDE - no scripts needed
+================================
+1. Install GitHub Desktop from https://desktop.github.com/ (official website).
+2. Sign in and choose File > Clone repository, URL: https://github.com/yuzhibo201225/converged-network.git
+3. Extract THIS ZIP locally.
+4. Copy its contents (README.md, converged_sim/, tests/, ns3_validation/, etc.)
+   into the GitHub Desktop cloned repository FOLDER. Do not copy the ZIP itself.
+5. In GitHub Desktop, review changed files. Commit with message
+   "Add reproducible converged-network research code" and click Push origin.
+6. Refresh https://github.com/yuzhibo201225/converged-network
+
+SECURITY: no .bat, .ps1, executables or precompiled Python bytecode in this ZIP.
+This archive contains source code, JSON configs, tests, and documentation only.
+No paper, slides, LaTeX or 295 MB raw data.
+
+Before submission, consider setting the repository to Private per course instructions.
