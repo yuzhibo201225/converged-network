@@ -1,0 +1,15 @@
+{
+  "base_config": {
+    "control_period": 1, "sensor_period": 2,
+    "control_packet_work": 0.01, "sensor_packet_work": 0.04,
+    "bulk_packet_work": 0.1, "buffer_work": 10,
+    "trace_low_rate": 0.7, "trace_high_rate": 1.3,
+    "warmup_control_packets": 256, "measured_control_packets": 10080,
+    "deadline_periods": 1
+  },
+  "loads": [0.4, 0.6, 0.8], "pmrs": [1, 3],
+  "tau_bs": [0.5, 2, 8], "tau_ss": [0.5, 2, 8],
+  "policies": ["fifo", "strict_priority", "drr"],
+  "seeds": [20000, 20001, 20002, 20003, 20004],
+  "drr_quanta": {"control": 0.01, "sensor": 0.01, "bulk": 0.18}
+}

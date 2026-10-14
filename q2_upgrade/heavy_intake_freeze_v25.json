@@ -1,0 +1,15 @@
+{
+  "split_sha256": "041490a80060ea4ce445de65580fde31330d2c3483421cb5aeed0053af922b31",
+  "archive_sha256": "1c69bfec9bea73814c56304ddd166c9975bbbd642e5d64428a06f6e57f395be3",
+  "code_sha256": "446e772c35111162b1483c05248d0fb09b9705166a214f0eb6a407686986b5c4",
+  "protocol_sha256": "e504b14b01e10362073ed7d28c42b131b48ee46b265afc4284bc9f4b9df4ee3b",
+  "members": [
+    "tmobile/stationary-good/up-heavy-pdo",
+    "tmobile/stationary-good/down-heavy-pdo",
+    "tmobile/weak-signal/up-heavy-pdo",
+    "tmobile/weak-signal/down-heavy-pdo"
+  ],
+  "prefix_end_ms": 208000,
+  "reserved_members_opened": 0,
+  "calibration_members_opened": 0
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS_DEVELOPMENT_HEAVY_SCHEMA_ONLY",
+  "frozen_sha256": "8c215fdbdcc961a39c2b505a394c0b27aad115194148f7a2297b526194ed2d45",
+  "summary_sha256": "dc9d00d5a2c116de870a9b9450f2059ae6749089a867e632eb3184bcfe13a9bd",
+  "members_opened": 4,
+  "reserved_members_opened": 0,
+  "calibration_members_opened": 0,
+  "replay_executed": false
+}

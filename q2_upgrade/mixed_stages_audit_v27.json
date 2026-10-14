@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE_DESCRIPTIVE_STAGE_ACCOUNTING",
+  "runs": 24,
+  "source_manifest_sha256": "7e3d73f447db78fe5bde349aa0effb34aaa07d6b5e4c94390f8578733d0ebdfa",
+  "stages_sha256": "9275a39ae09170deb77f5b21c0af2dc52fd6fd6f79c982a2c1bb571e5051fcd3",
+  "scope": "disjoint miss accounting; quantiles of stages do not sum"
+}

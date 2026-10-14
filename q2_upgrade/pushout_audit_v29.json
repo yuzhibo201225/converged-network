@@ -1,0 +1,9 @@
+{
+  "status": "PASS_RAW_AND_EXACT_PUSHOUT_REPLAY",
+  "runs": 6,
+  "all_flow_records": 665478,
+  "measured_control_records": 60000,
+  "evicted_packets": 647,
+  "manifest_sha256": "8cc0b080d109919360afeb9c4aeab74bea98fdd634eff0c93e53b9f0a23091b1",
+  "scope": "same-code exact replay and raw consistency; not independent implementation or novel method"
+}

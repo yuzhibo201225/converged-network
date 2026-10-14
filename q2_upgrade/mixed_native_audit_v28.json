@@ -1,0 +1,84 @@
+{
+  "status": "PASS_ALL_PACKET_NATIVE_FIFO_DIFFERENTIAL",
+  "runs": 12,
+  "rows": 1330956,
+  "receipts": [
+    {
+      "file": "0.2-1-original-native.csv",
+      "rows": 45704,
+      "sha256": "0e8768801182f3a0d78f0f30bd8d2784e8b2f11187e8a52cccf71d74b4dc311e",
+      "fields_exact": true
+    },
+    {
+      "file": "0.2-1-accepted-native.csv",
+      "rows": 45704,
+      "sha256": "0e8768801182f3a0d78f0f30bd8d2784e8b2f11187e8a52cccf71d74b4dc311e",
+      "fields_exact": true
+    },
+    {
+      "file": "0.2-3-original-native.csv",
+      "rows": 45704,
+      "sha256": "fb47f6213a07c7e746acce31cdef2f1007ef081e4dfcd13a49985d52b4bb0dbc",
+      "fields_exact": true
+    },
+    {
+      "file": "0.2-3-accepted-native.csv",
+      "rows": 45704,
+      "sha256": "fb47f6213a07c7e746acce31cdef2f1007ef081e4dfcd13a49985d52b4bb0dbc",
+      "fields_exact": true
+    },
+    {
+      "file": "0.6-1-original-native.csv",
+      "rows": 116841,
+      "sha256": "6610cb34f717d4163918338f0c1aa213ef182ca625ebfc9bf90785e4282ce03e",
+      "fields_exact": true
+    },
+    {
+      "file": "0.6-1-accepted-native.csv",
+      "rows": 116841,
+      "sha256": "6610cb34f717d4163918338f0c1aa213ef182ca625ebfc9bf90785e4282ce03e",
+      "fields_exact": true
+    },
+    {
+      "file": "0.6-3-original-native.csv",
+      "rows": 116841,
+      "sha256": "9148126d9c3441db8e0206ec37c9c4ab1b18a01900300c950f11c6a96e5dff45",
+      "fields_exact": true
+    },
+    {
+      "file": "0.6-3-accepted-native.csv",
+      "rows": 116841,
+      "sha256": "b875502aad192c2cbbc4f82cdf4c3248b3151ce0c0bd3fff489f151f1103cd6a",
+      "fields_exact": true
+    },
+    {
+      "file": "0.9-1-original-native.csv",
+      "rows": 170194,
+      "sha256": "bef6bc448aff9783fe2e0c32258957a6e038f926b19c999d6c84df981f0251de",
+      "fields_exact": true
+    },
+    {
+      "file": "0.9-1-accepted-native.csv",
+      "rows": 170194,
+      "sha256": "560f51b0f01ad21fc144e45576d964bf7192188d8857f9f8557c543145f88bf2",
+      "fields_exact": true
+    },
+    {
+      "file": "0.9-3-original-native.csv",
+      "rows": 170194,
+      "sha256": "664831b5f291a5e86a9ca87998dc18ae604089980faf548f95cd8ff00a212f45",
+      "fields_exact": true
+    },
+    {
+      "file": "0.9-3-accepted-native.csv",
+      "rows": 170194,
+      "sha256": "acad5f73bbcac0f3feb665a0e1f12cee429d79b9c0e2215dd0a42ffb2ee62b83",
+      "fields_exact": true
+    }
+  ],
+  "freeze_sha256": "6735dc7a7e7181a1fb71a8abbea1e8df372cd7c125c09e589417e905c34a7f5c",
+  "executable_sha256": "26ee95a1302ef6859b882cfd77288c1c281c28113478a17fa8f0f6ea269faa63",
+  "priority_equivalence": false,
+  "full_emulator_equivalence": false,
+  "independent_expert": false
+}

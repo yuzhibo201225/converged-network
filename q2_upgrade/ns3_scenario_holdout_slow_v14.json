@@ -1,0 +1,13 @@
+{
+  "purpose":"reserved offline scenario-predictor test: unseen service timescale and seeds, not population reliability",
+  "modes":["lowfirst","highfirst","coinflip"],
+  "loads":[0.95],"arms":[{"R":3,"tauB":8}],"tauS":12,
+  "seed":20261016,"trace_seed_base":120000,"runs":[1,2,3,4,5],
+  "warm":256,"measured":10000,
+  "settings":[
+    {"shape":"feedback","queue":"fifo","bias":0.03,"lag":0,"capacity":16},
+    {"shape":"feedback","queue":"fifo","bias":0.03,"lag":0.5,"capacity":16},
+    {"shape":"feedback","queue":"fifo","bias":0.06,"lag":0,"capacity":16},
+    {"shape":"feedback","queue":"fifo","bias":0.06,"lag":0.5,"capacity":16}
+  ]
+}

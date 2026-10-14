@@ -1,0 +1,28 @@
+{
+  "status": "FROZEN_BEFORE_NATIVE_BUILD",
+  "model_sha256": {
+    "converged_sim/native_release_check.py": "791b936b2a315a72602d43930518593081665436081c31cb53024906f2304f27",
+    "converged_sim/cellreplay_release_model.py": "da958118c5545572f961707e11e03366630657e509c4776b927d9ffdb795a71e",
+    "ns3_validation/cellreplay_release_fixture.cc": "ad822d521196d89a1faa04d8b39612e1fb72e3ce3d864ff7f53d695efe93e60b",
+    "q2_upgrade/NATIVE_RELEASE_PROTOCOL_V23.md": "aedb9503c61d65146308d17e2132dcd7c44facd8b43cb9884a77a70d39d30c87"
+  },
+  "selected_method_sha256": [
+    "d9ee5beb74f269cc3daee631dbe246c463cfeca53c355b81dbddf62c50a7ab99",
+    "7331d7fba201f823396ddff6c3a0f5075952cd42cc5154600f910cbf6a26d9c2"
+  ],
+  "planned_manifest_sha256": "006d46e3535dd774c4b16d70f2a7bee7a7de64e1addfed0b00272749341f7992",
+  "split_sha256": "041490a80060ea4ce445de65580fde31330d2c3483421cb5aeed0053af922b31",
+  "compiler_sha256": "fe03455c28ab0c69f1adb0ccde202124091f01d02b0c0ede8578f606063cc894",
+  "compiler_version": "g++.exe (Rev3, Built by MSYS2 project) 16.2.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "command": [
+    "C:\\msys64\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-O2",
+    "-ffp-contract=off",
+    "-static",
+    "C:\\Users\\LENOVO\\Desktop\\course work\\converged-research\\ns3_validation\\cellreplay_release_fixture.cc",
+    "-o",
+    "results\\native_release_v23b\\native-fixture.exe"
+  ],
+  "runtime_path_prefix": "C:\\msys64\\mingw64\\bin"
+}

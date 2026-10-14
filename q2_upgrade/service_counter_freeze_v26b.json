@@ -1,0 +1,17 @@
+{
+  "source_sha256": "0634d8ad1da5102d749cd8648752a7c02919edbcad05a69d798302f08e3f6c1e",
+  "queue_manifest_sha256": "01b9e34551ca917cfed2a74822bb680c00c2312e9b002d10635ba83b60b26098",
+  "template_sha256": "2345e84e5741f0a9bbe2e93f27efa560d88ff92822e89bde87bc47cbb04e5b42",
+  "runner_sha256": "9e6ef32dc23462707630517f3d6098bd2390a6557314b55de46c0cf80393b408",
+  "protocol_sha256": "18180e8e886d4498db59d17a4467fff6c7974b91d0d01227bc2386561c8c55d7",
+  "source_methods": "three contiguous methods; only class qualifier renamed",
+  "heavy_schedule_ms": [
+    100,
+    200,
+    300,
+    400
+  ],
+  "light_probe_ms": 201,
+  "reserved_members_opened": 0,
+  "radio_measurement": false
+}

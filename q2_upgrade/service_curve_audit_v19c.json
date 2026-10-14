@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "retrospective existing-theory baseline; no new experimental draws",
+  "original_runs": 240,
+  "prediction_count": 48,
+  "counts": {
+    "mean": {
+      "qualified_success": 140,
+      "false_qualification": 10,
+      "passing_abstention": 0,
+      "failing_abstention": 90
+    },
+    "minimum": {
+      "qualified_success": 75,
+      "false_qualification": 0,
+      "passing_abstention": 65,
+      "failing_abstention": 100
+    },
+    "budget": {
+      "qualified_success": 120,
+      "false_qualification": 0,
+      "passing_abstention": 20,
+      "failing_abstention": 100
+    }
+  },
+  "valid_rules_have_zero_observed_false_qualifications": true,
+  "prediction_manifest_sha256": "cec3b8decafcadebdaa199f6ee7d74234e4bd2f03a61bd62fdb147e497f55f6c",
+  "raw_audit_sha256": "11428eea76fe93450e206410ed484b182ddfa1f8e79edb4085188b6650e6cd23",
+  "comparisons_sha256": "633f4e626d45c740df9a97b9dc9b29b90018b4eaef0ed315eaeb7dc1a89894dc",
+  "cells_sha256": "a09b6821fd5464f061351f5181453b01a3a120b3aaad39768033ff5fb472484e"
+}
